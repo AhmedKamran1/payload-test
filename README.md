@@ -23,4 +23,4 @@ Ans) I dont think I made any assumptions as most of the tasks were clear. The on
 
 Its possible that this requirement was intended for the initial quiz load, where using SSR is possible. For the results page it doesnt seem applicable as well since retrieving past results is done by manually entering an email and searching, making it a purely client side operation.
 
-Regarding architectural decisions since this was a small template. One improvement I made was around the score breakdown cards, which are used in both the score screen and the old results screen. I refactored this into a single reusable component as both places shared the same logic and data.
+Regarding architectural decisions since this was a small template, I didnt try to over engineer it. One thing I made was around the score breakdown cards, which are used in both the score screen and the view results screen. I refactored this into a single reusable component as both places shared the same logic and data.
