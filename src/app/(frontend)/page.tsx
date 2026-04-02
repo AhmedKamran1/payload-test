@@ -10,6 +10,8 @@ import './styles.css'
 // Components
 import QuizList from '@/app/(frontend)/components/quiz/quiz-list'
 
+export const dynamic = 'force-dynamic'
+
 export default async function HomePage() {
   // Fetch the first quiz to display on the homepage
   const payload = await getPayload({ config })
